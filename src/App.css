@@ -36,3 +36,51 @@
     transform: rotate(360deg);
   }
 }
+
+.bg-body-tertiary{
+  padding: 0%;
+  margin: 0%;
+}
+
+.firstNav{
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+
+.cards{
+    width: 14rem;
+    height: 11rem;
+    background-color: #ffddb0;
+    border: yellow 10px;
+    margin-bottom: 5rem;
+    margin-top: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease; 
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+
+.propertyCards{
+  width: 14rem;
+  height: 22rem;
+  margin-bottom: 5rem;
+}
+
+.propertyImages{
+  width: 13rem;
+  height: 9rem;
+}
+
+.grids{
+  display: grid;
+  align-items:center;
+}
+.searchRoundeed{
+  border-radius: 40px;
+}
