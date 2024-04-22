@@ -1,20 +1,20 @@
 import { Col, Container, Row } from 'react-bootstrap';
 import Card from 'react-bootstrap/Card';
 
-function Property() {
+function Exclusive() {
   return (
     <div>
         <Container className='insideCont'>
             <Row>
-              <h2>Popular Owner Properties</h2>
+              <h2>Exclusive Owner Properties in Bangalore</h2>
    <Col>
     <Card className='propertyCards'>
-      <Card.Img variant="top" src="https://img.staticmb.com/mbphoto/property/cropped_images/2024/Jan/06/Photo_h180_w240/70655347_1_PropertyImage1704544830015_180_240.jpg" height={'170rem'} />
+      <Card.Img variant="top" src="https://img.staticmb.com/mbimages/project/Photo_h310_w462/2023/09/04/Project-Photo-88-Sri-Garnet-Park-Bangalore-5041385_1128_2000_310_462.jpg" height={'170rem'} />
       <Card.Body>
-      <Card.Subtitle className="mb-2 text-muted">3 BHK Flat</Card.Subtitle>
-        <Card.Title>&#x20B9;56,000  |  1578 sqft</Card.Title>
+      <Card.Subtitle className="mb-2 text-muted">2 BHK Flat</Card.Subtitle>
+        <Card.Title>&#x20B9;36,000  |  1203 sqft</Card.Title>
         <Card.Text>
-          Krishnarajapura, Bangalore
+          Hoodi, Bangalore
         </Card.Text>
         <Card.Link href="#">Ready to move</Card.Link>
       </Card.Body>
@@ -23,12 +23,12 @@ function Property() {
 
    <Col>
     <Card className='propertyCards'>
-      <Card.Img variant="top" src="https://img.staticmb.com/mbphoto/property/cropped_images/2024/Jan/03/Photo_h180_w240/2181_WhatsAppImage20240103at12.02.24PM_180_240.jpeg" height={'170rem'} />
+      <Card.Img variant="top" src="https://img.staticmb.com/mbphoto/property/cropped_images/2020/Oct/16/Photo_h300_w450/51595087_9_51595087_9_hatsAppImage2020-09-30at11_Fotor_300_450.jpg" height={'170rem'} />
       <Card.Body>
-      <Card.Subtitle className="mb-2 text-muted">2 BHK Flat</Card.Subtitle>
-        <Card.Title>&#x20B9;15,000  |  1000 sqft</Card.Title>
+      <Card.Subtitle className="mb-2 text-muted">3 BHK Flat</Card.Subtitle>
+        <Card.Title>&#x20B9;45,000  |  1376 sqft</Card.Title>
         <Card.Text>
-          Chandapura, Bangalore
+          Mahadevapura, Bangalore
         </Card.Text>
         <Card.Link href="#">Ready to move</Card.Link>
       </Card.Body>
@@ -42,7 +42,7 @@ function Property() {
       <Card.Subtitle className="mb-2 text-muted">3 BHK Flat</Card.Subtitle>
         <Card.Title>&#x20B9;48,000  |  1376 sqft</Card.Title>
         <Card.Text>
-          Phase 1 Electronic City, Bangalore
+          Yashwanthapura, Bangalore
         </Card.Text>
         <Card.Link href="#">Ready to move</Card.Link>
       </Card.Body>
@@ -51,12 +51,12 @@ function Property() {
 
    <Col>
     <Card className='propertyCards'>
-      <Card.Img className='ropertyImages' variant="top" src="https://img.staticmb.com/mbphoto/property/cropped_images/2024/Mar/17/Photo_h180_w240/71908817_4_hatsAppImage20240317at8.17.43PM2_180_240.jpeg" height={'170rem'} />
+      <Card.Img className='ropertyImages' variant="top" src="https://img.staticmb.com/mbphoto/property/cropped_images/2023/Dec/13/Photo_h300_w450/70387107_10_PropertyImage1702458134032_300_450.jpg" height={'170rem'} />
       <Card.Body>
       <Card.Subtitle className="mb-2 text-muted">3 BHK Flat</Card.Subtitle>
         <Card.Title>&#x20B9;30,000  |  1398 sqft</Card.Title>
         <Card.Text>
-          Sahakar Nagar, Bangalore
+          Rajaji Nagar, Bangalore
         </Card.Text>
         <Card.Link href="#">Ready to move</Card.Link>
       </Card.Body>
@@ -68,4 +68,4 @@ function Property() {
   );
 }
 
-export default Property;
+export default Exclusive;

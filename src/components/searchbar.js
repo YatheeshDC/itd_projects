@@ -1,6 +1,7 @@
 import React , { useState }  from "react";
 import { Container ,Navbar ,Dropdown,Form,Button } from "react-bootstrap";
 import HomeIcon from '@mui/icons-material/Home';
+import FmdGoodIcon from '@mui/icons-material/FmdGood';
 import CurrencyRupeeIcon from '@mui/icons-material/CurrencyRupee';
 import SearchIcon from '@mui/icons-material/Search';
 import { InputGroup, FormControl } from 'react-bootstrap';
@@ -35,7 +36,7 @@ let Searchbar=()=>{
           <Navbar.Collapse id="basic-navbar-nav">
             <Form className="d-flex flex-grow-1 justify-content-center align-items-center">
             <InputGroup className="mb-3">
-      {/* <InputGroup.Text id="basic-addon1"><LocationOnIcon className="OnIcon"/></InputGroup.Text> */}
+      <InputGroup.Text id="basic-addon1"><FmdGoodIcon className="OnIcon"/></InputGroup.Text>
       <FormControl
       className="borderless-input"
         placeholder="Enter city, location, projects "

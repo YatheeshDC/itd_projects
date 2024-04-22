@@ -8,11 +8,11 @@ import { Container } from 'react-bootstrap';
 
 export default function MediaCard() {
   return (
-    <Container>
+    <Container className='advContainer'>
         <h2>Property Services</h2><br></br>
     <Grid container spacing={2} className='grids'>
       <Grid item xs={4}>
-        <Card sx={{ maxWidth: 335 }}>
+        <Card sx={{ maxWidth: 335 }} className='SerCards'>
           <CardMedia
             sx={{ height: 140 }}
             image="https://cdn.staticmb.com/magicservicestatic/images/revamp/mbhome-web/property-services/graphic-zeroDp.jpg"
@@ -29,7 +29,7 @@ export default function MediaCard() {
         </Card>
       </Grid>
       <Grid item xs={4}>
-        <Card sx={{ maxWidth: 335 }}>
+        <Card sx={{ maxWidth: 335 }} className='SerCards'>
           <CardMedia
             sx={{ height: 140 }}
             image="https://cdn.staticmb.com/magicservicestatic/images/revamp/mbhome-web/property-services/graphic-rental-agreement.jpg"
@@ -46,9 +46,9 @@ export default function MediaCard() {
         </Card>
       </Grid>
       <Grid item xs={4}>
-        <Card sx={{ maxWidth: 335 }}>
+        <Card sx={{ maxWidth: 335 }} className='SerCards'>
           <CardMedia
-            sx={{ height: 140 }}
+            sx={{ height: 140 }} 
             image="https://cdn.staticmb.com/magicservicestatic/images/revamp/mbhome-web/property-services/webp/graphic-vastu.webp"
             title="Vastu"
           />

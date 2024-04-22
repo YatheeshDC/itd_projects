@@ -9,7 +9,7 @@ function Insider(){
 
 return(
     <div>
-<Container>
+<Container className="insideCont">
     <Row>
     <h2>Because you searched in Hoodi</h2>
         <Col>

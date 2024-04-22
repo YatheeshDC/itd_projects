@@ -64,7 +64,41 @@
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
+.insideCont{
+margin-top: 4rem;
+}
 
+.agentCard{
+  border-radius: 10px;
+  height: 250px;
+}
+
+.Bgclr{
+  color:black;
+  /* background-color: rgb(179, 227, 246); */
+  background-color: #00ffbf;
+  border-radius: 10px;
+}
+
+.BgColorAge{
+    background-color: ffff;
+  }
+
+ .FontColor{  
+    color: black;  
+    font-weight: bold;
+    font-size: 12px;
+  }
+
+  .MainCardAge{
+    border-radius: 10px;
+    height: 300px;
+  }
+
+  .TextColorAge{
+    font-size: 13px;
+    color: blue;
+  } 
 
 .propertyCards{
   width: 14rem;
@@ -81,6 +115,46 @@
   display: grid;
   align-items:center;
 }
+
 .searchRoundeed{
   border-radius: 40px;
 }
+
+.advContainer{
+  margin-top: 5rem;
+}
+.advCards{
+  width: 14rem;
+  height: 16rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease; 
+}
+
+.advCards:hover{
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.SerCards{
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease; 
+}
+
+.SerCards:hover{
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+
+.badge{
+  margin-left: 4rem;
+  margin-top: 0rem;
+  width: 5rem;
+  height: 10%;
+  font-size:small;
+}
+
+
+.ColumnsGrid{
+ margin-top: 5rem; 
+ background-color: antiquewhite;
+}
+
