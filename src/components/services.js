@@ -28,6 +28,7 @@ export default function MediaCard() {
           </CardContent>
         </Card>
       </Grid>
+      
       <Grid item xs={4}>
         <Card sx={{ maxWidth: 335 }} className='SerCards'>
           <CardMedia

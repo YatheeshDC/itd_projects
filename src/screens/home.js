@@ -4,10 +4,12 @@ import Searchbar from "../components/searchbar";
 import Insider from "../components/inside";
 import Property from "../components/properties";
 import MediaCard from "../components/services";
+import RecipeReviewCard from "../components/experts";
 import BasicCard from "../components/advice";
 import ColumnsGrid from "../components/realeastate";
 import OutlinedCard from "../components/agents";
 import Exclusive from "../components/exclusive";
+import FooterSecond from "../components/secondFooter";
 
 const Home=()=>{
     return(
@@ -19,9 +21,11 @@ const Home=()=>{
             <Property/>
             <OutlinedCard/>
             <MediaCard/>
+            <RecipeReviewCard/>
             <BasicCard/>
             <Exclusive/>
             <ColumnsGrid/>
+            <FooterSecond/>
 
         </div>
     )

@@ -75,7 +75,7 @@ margin-top: 4rem;
 
 .Bgclr{
   color:black;
-  /* background-color: rgb(179, 227, 246); */
+  /* background-color: rgb(222, 211, 69); */
   background-color: #00ffbf;
   border-radius: 10px;
 }
@@ -134,6 +134,16 @@ margin-top: 4rem;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
+.expCard{
+  margin: 2rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease; 
+}
+
+.expCard:hover{
+box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
 .SerCards{
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: box-shadow 0.3s ease; 
@@ -143,6 +153,9 @@ margin-top: 4rem;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
+.realVideo{
+  margin: 1rem;
+}
 
 .badge{
   margin-left: 4rem;
