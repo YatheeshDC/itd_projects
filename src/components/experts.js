@@ -10,7 +10,7 @@ import Avatar from '@mui/material/Avatar';
 import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
 import { blue, red } from '@mui/material/colors';
-import { Link } from '@mui/material';
+import { Link } from 'react-router-dom';
 import ShareIcon from '@mui/icons-material/Share';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
@@ -38,7 +38,7 @@ export default function RecipeReviewCard(){
         <b>Societies served: &nbsp;</b>
         L and T Raintree Boulevard
         </Typography><br></br>
-        <Link size="small">View all 20 Flats</Link>
+        <Link to="/more" size="small">View all 20 Flats</Link>
       </CardContent>
      </Card>
 

@@ -1,9 +1,9 @@
 import React from 'react';
-//  import ReadMoreLess from '../reducers/readmore';
- import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';
- import InstagramIcon from '@mui/icons-material/Instagram';
- import XIcon from '@mui/icons-material/X';
- import YouTubeIcon from '@mui/icons-material/YouTube';
+// import ReadMoreLess from '../reducers/readmore';
+import FacebookOutlinedIcon from '@mui/icons-material/FacebookOutlined';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import XIcon from '@mui/icons-material/X';
+import YouTubeIcon from '@mui/icons-material/YouTube';
 import { Container ,Row,Col} from 'react-bootstrap';
  
 const FooterSecond = () => {
@@ -13,9 +13,9 @@ const FooterSecond = () => {
       <Container>
         <Row>
           <Col>
-      <div  >
-        <div className="footer-section about"  >
-          <h5>About MSBricks</h5>
+      <div >
+        <div className="footer-section about">
+          <h5>About Magicbricks</h5>
           {/* <ReadMoreLess maxLength={80} >
             MSBricks is your trusted partner in the real estate market, providing comprehensive solutions for buying, selling, and renting properties across the globe. With years of experience and a commitment to service excellence, MSBricks helps you navigate the complex world of real estate with ease and confidence.
           </ReadMoreLess> */}
@@ -67,15 +67,15 @@ const FooterSecond = () => {
         <div className="footer-section contact">   
         </div>
         <div className="footer-section social">
-          <a href="#/" className='footmrgin'target='_blank'>Property in New Delhi |</a>
-          <a href="#/" className='footmrgin'target='_blank'>Property in Mumbai  |</a>
-          <a href="#/" className='footmrgin'target='_blank'>Property in Chennai |</a>
-          <a href="#/" className='footmrgin'target='_blank'> Property in Pune |</a>
-          <a href="#/" className='footmrgin'target='_blank'> Property in Ahmedabad |</a>
-          <a href="#/" className='footmrgin2'target='_blank'> Property in Bangalore </a>
-          <a href="#/" className='footmrgin2'target='_blank'> Property in Gurgaon |</a>
-          <a href="#/" className='footmrgin2'target='_blank'>Property in Noida |</a>
-          <a href="#/" className='footmrgin2'target='_blank'>  Gadgets Now</a> 
+          <a href="#/" className='footmrgin'target='_blank'>Property in New Delhi|</a>
+          <a href="#/" className='footmrgin'target='_blank'>Property in Mumbai|</a>
+          <a href="#/" className='footmrgin'target='_blank'>Property in Chennai|</a>
+          <a href="#/" className='footmrgin'target='_blank'>Property in Pune|</a>
+          <a href="#/" className='footmrgin'target='_blank'>Property in Ahmedabad|</a>
+          <a href="#/" className='footmrgin2'target='_blank'>Property in Bangalore|</a>
+          <a href="#/" className='footmrgin2'target='_blank'>Property in Gurgaon|</a>
+          <a href="#/" className='footmrgin2'target='_blank'>Property in Noida|</a>
+          <a href="#/" className='footmrgin2'target='_blank'>Gadgets Now|</a> 
           <br/>
 
           <div className="footer-section social">
@@ -83,20 +83,20 @@ const FooterSecond = () => {
           <h5>New Projects in India</h5>
 
           <a href="#/" className='footmrgin'target='_blank'>Property in New Delhi |</a>
-          <a href="#/" className='footmrgin'target='_blank'>Property in Mumbai</a>
-          <a href="#/" className='footmrgin'target='_blank'>Property in Chennai</a>
-          <a href="#/" className='footmrgin'target='_blank'> Property in Pune</a>
-          <a href="#/" className='footmrgin'target='_blank'> Property in Ahmedabad</a>
+          <a href="#/" className='footmrgin'target='_blank'>Property in Mumbai |</a>
+          <a href="#/" className='footmrgin'target='_blank'>Property in Chennai |</a>
+          <a href="#/" className='footmrgin'target='_blank'> Property in Pune |</a>
+          <a href="#/" className='footmrgin'target='_blank'> Property in Ahmedabad |</a>
           <br/>
         </div>
         </div>
         </Col>
         </Row>
-        </Container>
+        </Container><br></br>
          
     </footer>
     <footer className='bg-dark text-light py-1' >
-      <p className='mx-4' style={{fontSize:'14px'}}>All trademarks, logos and names are properties of their respective owners. All Rights Reserved. © Copyright 2024 Magicbricks Realty Services Limited.</p>
+      <p className='mx-4' style={{fontSize:'14px', display:'flex', justifyContent:'center' }}>All trademarks, logos and names are properties of their respective owners. All Rights Reserved. © Copyright 2024 Magicbricks Realty Services Limited.</p>
     </footer>
     </>
   );

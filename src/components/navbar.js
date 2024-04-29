@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import {Navbar, Container, Nav, NavDropdown, Badge, Button, Card} from 'react-bootstrap';
+import { Link } from 'react-router-dom';
 
 function BasicExample() {
   const [showDropdown, setShowDropdown] = useState(false);
@@ -68,15 +69,11 @@ function BasicExample() {
           </Nav>
           <Nav>
             <NavDropdown title="LOGIN" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Action</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">
-                Another action
+              <NavDropdown.Item href="#action/3.1">Register</NavDropdown.Item>
+              <NavDropdown.Item>
+              <Link to="/loginn">login</Link>
               </NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Something</NavDropdown.Item>
-              <NavDropdown.Divider />
-              <NavDropdown.Item href="#action/3.4">
-                Separated link
-              </NavDropdown.Item>
+              
             </NavDropdown>
           </Nav>
           <Navbar.Text href="#home">Post Property</Navbar.Text>

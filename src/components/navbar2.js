@@ -7,7 +7,7 @@ function Nav2() {
   return (
     <Navbar expand="lg" className="bg-body-tertiary">
     
-      <Container>
+      <Container className='secondNav'>
           <Nav className="me-auto">
           <Nav>
             <NavDropdown className='mx-3' title="Buy" id="basic-nav-dropdown">

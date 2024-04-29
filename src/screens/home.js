@@ -9,7 +9,11 @@ import BasicCard from "../components/advice";
 import ColumnsGrid from "../components/realeastate";
 import OutlinedCard from "../components/agents";
 import Exclusive from "../components/exclusive";
+// import Arrrowaction from "../components/arrowActionextra";
+import Property22 from "../components/properties22";
+import YourProperty from "../components/yourProp";
 import FooterSecond from "../components/secondFooter";
+// import PropertyServices from "../components/prpertyServicesextra";
 
 const Home=()=>{
     return(
@@ -19,12 +23,15 @@ const Home=()=>{
             <Searchbar/>
             <Insider/>
             <Property/>
+            {/* <PropertyServices/> */}
             <OutlinedCard/>
             <MediaCard/>
             <RecipeReviewCard/>
             <BasicCard/>
             <Exclusive/>
             <ColumnsGrid/>
+            <Property22/>
+            <YourProperty/>
             <FooterSecond/>
 
         </div>

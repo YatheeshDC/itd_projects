@@ -48,6 +48,10 @@
   z-index: 1000;
 }
 
+.me-auto{
+  position: sticky;
+  top: 0;
+}
 
 .cards{
     width: 14rem;
@@ -152,10 +156,10 @@ box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 .SerCards:hover{
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
-
+/* 
 .realVideo{
   margin: 1rem;
-}
+} */
 
 .badge{
   margin-left: 4rem;
@@ -167,7 +171,227 @@ box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 
 
 .ColumnsGrid{
- margin-top: 5rem; 
+ height: 24rem;
  background-color: antiquewhite;
+ margin-bottom: 5rem;
+ /* margin-top: 5rem; */
+ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+ transition: box-shadow 0.3s ease;
 }
 
+.ColumnsGrid{
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.video-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.video {
+  margin-top: 12px;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.video iframe {
+  width: 40%;
+  height: 60%;
+  border-radius: 20%;
+  margin-right: 20px;
+}
+
+.ColumnsGrid{
+  /* margin-top: 5rem; */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease; 
+}
+
+.ColumnsGrid:hover{
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer{
+ background-color:beige;
+}
+
+.footmrgin{
+  margin-right: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.footmrgin2{
+  margin-right: 50px;
+  text-decoration: none;
+  color: black;
+}
+
+/* home2 */
+.images{
+  width: 25rem;
+}
+.images22{
+  width: 7rem;
+  position: relative;
+  bottom: 422px;
+}
+.images33{
+  width: 7rem;
+  margin-left: 1rem;
+  position: relative;
+  bottom: 423px;
+}
+
+.iconDetails{
+  background-color: lightgrey;
+  padding: 10px;
+  border-radius: 10px;
+  margin-left: 10px;
+  position: relative;
+  /* margin-top: 10rem; */
+  /* bottom: 120px; */
+}
+.carpetArea{
+  position: relative;
+  left: 28rem;
+  bottom: 13rem;
+  font-size: small;
+}
+
+.floor{
+  position: relative;
+  left: 38rem;
+  font-size: small;
+  bottom: 18rem;
+}
+.status{
+  position: relative;
+  left: 52rem;
+  font-size: small;
+  bottom: 22rem;
+}
+.facing{
+  position: relative;
+  left: 28rem;
+  bottom: 18rem;
+  font-size: small;
+}
+.lifts{
+  position: relative;
+  left: 38rem;
+  font-size: small;
+  bottom: 21rem;
+}
+.furnish{
+  position: relative;
+  left: 52rem;
+  font-size: small;
+  bottom: 25rem;
+}
+.period{
+  position: relative;
+  left: 28rem;
+  bottom: 24rem;
+  /* font-size: small; */
+}
+
+.liner{
+  border-top: 1px solid #ddd;
+  margin-top: 20px;
+  position: relative;
+  bottom: 18rem;
+}
+.owner{
+  position: relative;
+  bottom: 22rem;
+  border-radius: 10px;
+  color: white;
+  padding: 5px;
+  background-color: red;
+  border: 1px solid red;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+.owner22 {
+  position: relative;
+  bottom: 22rem;
+  border-radius: 10px;
+  color: red; /* Default text color */
+  background-color: #f8f9fa; /* Default background color */
+  border: 1px solid red;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color red 0.3s ease, color 0.3s ease; /* Smooth transition effect for both background color and text color */
+}
+
+.owner22:hover {
+  background-color: red; /* Background color on hover */
+  color: white; /* Text color on hover */
+}
+
+.owner33{
+  position: relative;
+  bottom: 22rem;
+  left: 25rem;
+}
+
+.tab{
+  background-color: white;
+  width: 64rem;
+  height: 25rem;
+  cursor: pointer;
+  margin-bottom: 5rem;
+}
+
+.move{
+  position: relative;
+  left: 14rem;
+}
+
+.road{
+  position: relative;
+  left: 4rem;
+}
+.tab22{
+  background-color: white;
+  width: 65rem;
+  height: 40rem;
+  cursor: pointer;
+  margin-bottom: 5rem;
+}
+.construction{
+  position: relative;
+  left: 0rem;
+}
+
+.number{
+  position: relative;
+  left: 10rem;
+}
+
+.report{
+  color: red;
+  position: relative;
+  left: 1rem;
+}
+.rate{
+  position: relative;
+  left: 5rem;
+}
+.ads{
+  position: relative;
+  left: 7rem;
+}
