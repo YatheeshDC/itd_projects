@@ -1,6 +1,6 @@
 import React from "react";
 import BasicExample from "../components/navbar";
-import LoginForm from "../components/log";
+import LoginForm from "../components/logInnn";
 import FooterSecond from "../components/secondFooter";
 import Nav2 from "../components/navbar2";
 

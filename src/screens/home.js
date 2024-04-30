@@ -31,7 +31,7 @@ const Home=()=>{
             <Exclusive/>
             <ColumnsGrid/>
             <Property22/>
-            <YourProperty/>
+            {/* <YourProperty/> */}
             <FooterSecond/>
 
         </div>

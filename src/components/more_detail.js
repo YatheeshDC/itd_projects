@@ -1,11 +1,10 @@
 import { Container,Card } from "react-bootstrap";
-import ReportIcon from '@mui/icons-material/Report';
 import LocalShippingTwoToneIcon from '@mui/icons-material/LocalShippingTwoTone';
 
 const MoreDetails=()=>{
     return(
         <div>
-              <Container fluid className="mx-3 mt-3" style={{ width: "25rem", height:"35rem", marginBottom:'10rem', marginTop:'10rem' }}>
+              <Container fluid className="mx-4 mt-3" style={{ width: "20rem", height:"35rem", marginBottom:'10rem', marginTop:'10rem' }}>
                 <Card className="tab22">
                     <Card.Body>
                       <h3> <p><b> More Details</b></p></h3>
@@ -55,7 +54,7 @@ const MoreDetails=()=>{
 </table>
 
 <p><button className="btn btn-danger me-5 mt-3">Contact_Owner</button>
-<span className="report"><ReportIcon></ReportIcon>Report_Owner</span></p>
+<span className="report"></span></p>
 
         
                     </Card.Body>

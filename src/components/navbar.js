@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import {Navbar, Container, Nav, NavDropdown, Badge, Button, Card} from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { Form, Link } from 'react-router-dom';
 
-function BasicExample() {
+export default function BasicExample() {
   const [showDropdown, setShowDropdown] = useState(false);
   
   const handleMouseEnter = () => {
@@ -69,9 +69,31 @@ function BasicExample() {
           </Nav>
           <Nav>
             <NavDropdown title="LOGIN" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Register</NavDropdown.Item>
+
+            <NavDropdown.Item href="">Requested Properties</NavDropdown.Item>
+            <NavDropdown.Item href="">Contacted Properties</NavDropdown.Item>
+            <NavDropdown.Item href="">Viewed Properties</NavDropdown.Item>
+            <NavDropdown.Item href="">Shortlisted Properties</NavDropdown.Item>
+            <NavDropdown.Item href="">Searches</NavDropdown.Item>
+            <hr></hr>
+            <NavDropdown.Item href="">Recommendations</NavDropdown.Item>
+            <NavDropdown.Item href="">My Profile</NavDropdown.Item>
+            <hr></hr>
+            {/* <NavDropdown.Item>
+            <Button  variant='danger' style={{borderColor:'red', width:'80%'}} className='mx-2'>
+            <Link to="/loginn">LogIn</Link>
+            </Button>  */}
+
+            {/* <Form.Group className="mb-3  mt-2 d-flex justify-content-center">
+            <Navbar.Text>New to Magicbricks?</Navbar.Text> 
+            <Link to='' style={{color:'red'}}>SignUp Now</Link>
+            </Form.Group>
+            </NavDropdown.Item> */}
+
               <NavDropdown.Item>
-              <Link to="/loginn">login</Link>
+              <Button>
+              <Link to="/loginn" style={{color:'white', textDecoration:'none'}}>SignUp</Link>
+              </Button>
               </NavDropdown.Item>
               
             </NavDropdown>
@@ -85,4 +107,4 @@ function BasicExample() {
   );
 }
 
-export default BasicExample;
+
