@@ -4,7 +4,7 @@ import LocalShippingTwoToneIcon from '@mui/icons-material/LocalShippingTwoTone';
 const MoreDetails=()=>{
     return(
         <div>
-              <Container fluid className="mx-4 mt-3" style={{ width: "20rem", height:"35rem", marginBottom:'10rem', marginTop:'10rem' }}>
+              <Container fluid className="mx-4 mt-3" style={{ width: "18rem", height:"35rem", marginBottom:'10rem', marginTop:'10rem' }}>
                 <Card className="tab22">
                     <Card.Body>
                       <h3> <p><b> More Details</b></p></h3>

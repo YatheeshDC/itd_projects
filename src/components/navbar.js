@@ -92,7 +92,7 @@ export default function BasicExample() {
 
               <NavDropdown.Item>
               <Button>
-              <Link to="/loginn" style={{color:'white', textDecoration:'none'}}>SignUp</Link>
+              <Link to="/login" style={{color:'white', textDecoration:'none'}}>SignUp</Link>
               </Button>
               </NavDropdown.Item>
               
