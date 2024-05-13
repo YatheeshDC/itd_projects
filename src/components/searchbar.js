@@ -5,6 +5,9 @@ import FmdGoodIcon from '@mui/icons-material/FmdGood';
 import CurrencyRupeeIcon from '@mui/icons-material/CurrencyRupee';
 import SearchIcon from '@mui/icons-material/Search';
 import { InputGroup, FormControl } from 'react-bootstrap';
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+</style>
 
 
 let Searchbar=()=>{ 
@@ -16,27 +19,27 @@ let Searchbar=()=>{
 
     return(
         <div>
-            <Container className="col-6 mt-5 mb-5">
-            <h2> Welcome back! Let’s continue your search</h2>
+            <Container className="col-4 mt-5 mb-5">
+            <h2>Find a home you'll<span className="diffFont"><i> love</i></span></h2>
             </Container>
             <Container className="d-flex justify-content-center">
-            <Navbar.Text href="#home" className='nav_bold text-dark ms-4'>Buy</Navbar.Text>
-            <Navbar.Text href="#home" className='nav_bold text-dark ms-4'>Rent</Navbar.Text>
-            <Navbar.Text href="#home" className='nav_bold text-dark ms-4'>New Projects</Navbar.Text>
-            <Navbar.Text href="#home" className='nav_bold text-dark ms-4'>PG</Navbar.Text>
-            <Navbar.Text href="#home" className='nav_bold text-dark ms-4'>Plot</Navbar.Text>
-            <Navbar.Text href="#home" className='nav_bold text-dark ms-4'>Commercial</Navbar.Text>
-            <Navbar.Text href="#home" className='nav_bold text-dark ms-4'>Post Free Property Ad</Navbar.Text>
+            <Navbar.Text href="#home" className='options nav_bold text-dark ms-4'>Buy</Navbar.Text>
+            <Navbar.Text href="#home" className='options nav_bold text-dark ms-4'>Rent</Navbar.Text>
+            <Navbar.Text href="#home" className='options nav_bold text-dark ms-4'>New Projects</Navbar.Text>
+            <Navbar.Text href="#home" className='options nav_bold text-dark ms-4'>PG</Navbar.Text>
+            <Navbar.Text href="#home" className='options nav_bold text-dark ms-4'>Plot</Navbar.Text>
+            <Navbar.Text href="#home" className='options nav_bold text-dark ms-4'>Commercial</Navbar.Text>
+            <Navbar.Text href="#home" className='options nav_bold text-dark ms-4'>Post Free Property Ad</Navbar.Text>
             </Container>
 
-            <div className=" searchRoundeed border  p-3 mt-3" style={{width:'60%', marginLeft:'250px'}}>
+            <div className=" searchRoundeed border  p-3 mt-3" style={{width:'60%', marginLeft:'18rem'}}>
       <Navbar expand="lg" className="bg-body-tertiary">
         <Container>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Form className="d-flex flex-grow-1 justify-content-center align-items-center">
             <InputGroup className="mb-3">
-      <InputGroup.Text id="basic-addon1"><FmdGoodIcon className="OnIcon"/></InputGroup.Text>
+      <InputGroup.Text id="basic-addon1"><FmdGoodIcon  style={{color:'red'}}/></InputGroup.Text>
       <FormControl
       className="borderless-input"
         placeholder="Enter city, location, projects "
@@ -56,8 +59,7 @@ let Searchbar=()=>{
                 
  
                 <Dropdown.Toggle variant="light" id="flat-dropdown">
-                  <h1 className="OnIcon"><HomeIcon/></h1>
-                  Flat +2
+                  <span style={{color:'red'}}><HomeIcon/> </span><b>Flat +2</b>
                 </Dropdown.Toggle>
                 <Dropdown.Menu>
                   <Dropdown.Toggle  
@@ -78,8 +80,7 @@ let Searchbar=()=>{
               </Dropdown>
               <Dropdown className="me-2">
                 <Dropdown.Toggle variant="light" id="budget-dropdown">
-                  <h1 className="OnIcon"><CurrencyRupeeIcon/></h1>
-                  Budget
+                <span style={{color:'red'}}><CurrencyRupeeIcon/></span><b>Budget</b>
                 </Dropdown.Toggle>
                 <Dropdown.Menu>
                   <Dropdown.Item href="#">&#x20B9;5,000</Dropdown.Item>
@@ -89,7 +90,10 @@ let Searchbar=()=>{
                   <Dropdown.Item href="#">&#x20B9;25,000</Dropdown.Item>
                 </Dropdown.Menu>
               </Dropdown>
-              <Button variant="danger"> <SearchIcon className="OnIcon"/>Search</Button>
+              <Button variant="danger">
+               <span><SearchIcon/></span>
+               Search
+              </Button>
             </Form>
           </Navbar.Collapse>
         </Container>

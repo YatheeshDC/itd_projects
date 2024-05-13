@@ -8,14 +8,15 @@ import DescriptionOutlinedIcon from '@mui/icons-material/DescriptionOutlined';
 import TrendingUpOutlinedIcon from '@mui/icons-material/TrendingUpOutlined';
 import CalculateOutlinedIcon from '@mui/icons-material/CalculateOutlined';
 import { Container, Row ,Col,Badge} from 'react-bootstrap';
-import { Grid, Link } from '@mui/material';
+import { FaArrowRight } from "react-icons/fa6";
+import { Link } from '@mui/material';
 export default function BasicCard() {
   return (
     // <div>
     <Container className='advContainer'>
         <Row>
         <h2>Advice & Tools</h2>
-            <Col>
+    <Col>
     <Card className='advCards'>
       <CardContent>
         <Typography sx={{ fontSize: 10 }} color="text.secondary" gutterBottom>
@@ -34,7 +35,7 @@ export default function BasicCard() {
       </CardContent>
       <CardActions>
         <div className='read'>
-        <Link  size="small">Read more</Link>
+        <Link  size="small" style={{color:'red'}}><b>Read more </b><FaArrowRight/></Link>
         </div>
       </CardActions>
     </Card>
@@ -59,7 +60,7 @@ export default function BasicCard() {
       </CardContent>
       <CardActions>
         <div className='read'>
-        <Link  size="small">Read more</Link>
+        <Link  size="small"style={{color:'red'}}><b>Read more </b><FaArrowRight/></Link>
         </div>
       </CardActions>
     </Card>
@@ -83,7 +84,7 @@ export default function BasicCard() {
       </CardContent>
       <CardActions>
         <div className='read'>
-        <Link  size="small">View now</Link>
+        <Link  size="small"style={{color:'red'}}><b>View now </b><FaArrowRight/></Link>
         </div>
       </CardActions>
     </Card>
@@ -108,7 +109,7 @@ export default function BasicCard() {
       </CardContent>
       <CardActions>
         <div className='read'>
-        <Link  size="small">View now</Link>
+        <Link  size="small"style={{color:'red'}}><b>View now </b><FaArrowRight/></Link>
         </div>
       </CardActions>
     </Card>

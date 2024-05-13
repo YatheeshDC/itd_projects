@@ -3,7 +3,7 @@ import { styled } from '@mui/material/styles';
 import Box from '@mui/material/Box';
 import { Paper } from '@mui/material';
 import Grid from '@mui/material/Grid';
-import { Card, Carousel, Col, Container, Row } from 'react-bootstrap';
+import { Card, Carousel, Container, Row } from 'react-bootstrap';
 import { CarouselItem} from 'react-bootstrap';
 import PlayCircleOutlinedIcon from '@mui/icons-material/PlayCircleOutlined';
 import ReceiptLongOutlinedIcon from '@mui/icons-material/ReceiptLongOutlined';
@@ -11,7 +11,7 @@ import InventoryOutlinedIcon from '@mui/icons-material/InventoryOutlined';
 import DifferenceOutlinedIcon from '@mui/icons-material/DifferenceOutlined';
 import VideoLibraryOutlinedIcon from '@mui/icons-material/VideoLibraryOutlined';
 import KeyboardDoubleArrowRightOutlinedIcon from '@mui/icons-material/KeyboardDoubleArrowRightOutlined';
-import Button from '@mui/material/Button';
+// import Button from '@mui/material/Button';
 
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : 'antiquewhite',
@@ -80,7 +80,7 @@ export default function ColumnsGrid() {
           <Item className='d-flex ColumnsGrid'>
           <div class="video-container">
         <div class="video">
-            <iframe src="https://www.youtube.com/embed/0ihT_FqJ9YE?si=Bk-kxCuZrVvYmMwN" frameborder="0" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/0ihT_FqJ9YE?si=Bk-kxCuZrVvYmMwN" frameborder="0" allowfullscreen title='video'></iframe>
             <div class="info">
                 {/* <h2>Video 1 Title</h2> */}
                 <p> <b>Model Tenancy Act 2021: Protects the rights of landlords and tenants</b></p>
@@ -90,7 +90,7 @@ export default function ColumnsGrid() {
        
 
         <div class="video">
-            <iframe src="https://www.youtube.com/embed/Iphcba3qZkE?si=zdNuFhf9KRBJ99Zf"  frameborder="0" allowfullscreen></iframe>
+            <iframe src="https://www.youtube.com/embed/Iphcba3qZkE?si=zdNuFhf9KRBJ99Zf"  frameborder="0" allowfullscreen title='video'></iframe>
             <div class="info">
                 {/* <h2>Video 2 Title</h2> */}
                 <p><b>Pay BBMP Property Tax Online @ bbmptax.karnataka.gov.in</b></p>

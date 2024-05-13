@@ -84,7 +84,7 @@ import CardMedia from '@mui/material/CardMedia';
 // import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import { Link ,Box} from '@mui/material';
-import { Container,Row,Col ,Button,Badge} from 'react-bootstrap';
+import {Row,Col ,Button,Badge} from 'react-bootstrap';
 import Dropdown from 'react-bootstrap/Dropdown';
 import BedOutlinedIcon from '@mui/icons-material/BedOutlined';
 import BathtubOutlinedIcon from '@mui/icons-material/BathtubOutlined';
@@ -94,7 +94,7 @@ import CurrencyRupeeIcon from '@mui/icons-material/CurrencyRupee';
 import PermContactCalendarIcon from '@mui/icons-material/PermContactCalendar';
 import SimCardDownloadOutlinedIcon from '@mui/icons-material/SimCardDownloadOutlined';
 import WhatsAppIcon from '@mui/icons-material/WhatsApp';
-import MoreDetails from './more_detail';
+// import MoreDetails from './more_detail';
 
 export default function More() {
   return (
@@ -155,7 +155,7 @@ export default function More() {
       </Box>
       </Col>
        <Col >
-      <Typography gutterBottom variant="body1" component="span" sx={{color:'black', color:"text.secondary",bgcolor:'lightgray',borderRadius:'10px'}}  className='py-4 , px-4'>
+      <Typography gutterBottom variant="body1" component="span" sx={{ color:"text.secondary",bgcolor:'lightgray',borderRadius:'10px'}}  className='py-4 , px-4'>
      <BedOutlinedIcon/> 1Bed |  <BathtubOutlinedIcon/>1Bath |  <BalconyOutlinedIcon/>1 Balcony <DoorSlidingOutlinedIcon/>1 Furnished
         </Typography>
         <Row>

@@ -78,6 +78,7 @@ import Card from 'react-bootstrap/Card';
 import KeyboardDoubleArrowRightOutlinedIcon from '@mui/icons-material/KeyboardDoubleArrowRightOutlined';
 import KeyboardDoubleArrowLeftOutlinedIcon from '@mui/icons-material/KeyboardDoubleArrowLeftOutlined';
 import { Link } from 'react-router-dom';
+import { FaArrowRight } from "react-icons/fa6";
 
 function ArrowAction(totalCards) {
   const [index, setIndex] = useState(0);
@@ -166,17 +167,17 @@ function Exclusive() {
                     {cards[(index + position) % cards.length].location}
                   </Card.Text>
                   <Link to="/more">
-                  <Card.Link href={cards[(index + position) % cards.length].link}>Ready to move</Card.Link>
+                  <Card.Link href={cards[(index + position) % cards.length].link} style={{color:'red'}}><b>Ready to move </b><FaArrowRight/></Card.Link>
                   </Link>
                 </Card.Body>
               </Card>
             </Col>
           ))}
         </Row>
-        <button className='ArrowButton2' style={{ position: 'absolute', left: '90px', marginLeft: "0px", top: '500%', borderRadius:'40px', height:'40px' }} onClick={handlePrev}>
+        <button className='ArrowButton2' style={{ position: 'absolute', left: '90px', marginLeft: "0px", top: '550%', borderRadius:'40px', height:'40px' }} onClick={handlePrev}>
           <KeyboardDoubleArrowLeftOutlinedIcon />
         </button>
-        <button className='ArrowButton' style={{ position: 'absolute', right: '135px', top: '500%', borderRadius:'20px', height:'40px' }} onClick={handleNext}>
+        <button className='ArrowButton' style={{ position: 'absolute', right: '135px', top: '550%', borderRadius:'20px', height:'40px' }} onClick={handleNext}>
           <KeyboardDoubleArrowRightOutlinedIcon />
         </button>
       </Container>

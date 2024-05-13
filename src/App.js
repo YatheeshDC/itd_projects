@@ -4,6 +4,10 @@ import Home2 from './screens/home2';
 import {BrowserRouter as Router,Routes,Route} from 'react-router-dom'
 import UserLogin from './screens/userLogin';
 import UserSignup from './screens/userSignup';
+import Profiledetail from './screens/pdetail';
+import ListProduct from './components/backfetch';
+import AddProduct from './components/postproperty2';
+
 // import {Browser Router}
 
 function App() {
@@ -16,6 +20,12 @@ function App() {
             <Route path='/more'element={<Home2/>}/>
             <Route path='/Login' element={<UserLogin/>}/>
             <Route path='/Signup' element={<UserSignup/>}/>
+            <Route path='/pdetail' element={<Profiledetail/>}/>
+            <Route path='/backfetch' element={<ListProduct/>}/>
+            <Route path='/Sign' element={<AddProduct/>}/>
+
+
+
           {/* </Route> */}
       </Routes>
       </Router>

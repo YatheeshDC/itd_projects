@@ -11,7 +11,8 @@ function  UserSignup() {
   const [formData, setFormData] = useState({
     userName: '',
     userEmail: '',
-    userPassword: ''
+    userPassword: '',
+    userNumber:''
   });
 
   const handleChange = (event) => {
@@ -71,6 +72,16 @@ function  UserSignup() {
           onChange={handleChange}
           placeholder="Password" />
       </Form.Group>
+      
+      <Form.Group className="mb-3" controlId="formBasicPassword">
+        <Form.Label>Number</Form.Label>
+        <Form.Control type="phonenumber" 
+          name="userNumber"
+          value={formData.userNumber}
+          onChange={handleChange}
+          placeholder="enter number" />
+      </Form.Group>
+      
       <Form.Group className="mb-3 " controlId="formBasicCheckbox" style={{fontSize:'12px'}}>
           <Form.Check type="checkbox" label="I agree to Magicbricks T&C, Privacy Policy, & Cookie Policy"  />
         </Form.Group>

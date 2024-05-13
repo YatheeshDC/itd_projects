@@ -11,9 +11,10 @@ import OutlinedCard from "../components/agents";
 import Exclusive from "../components/exclusive";
 // import Arrrowaction from "../components/arrowActionextra";
 import Property22 from "../components/properties22";
-import YourProperty from "../components/yourProp";
+// import YourProperty from "../components/yourProp";
 import FooterSecond from "../components/secondFooter";
 // import PropertyServices from "../components/prpertyServicesextra";
+import ListProduct from "../components/backfetch";
 
 const Home=()=>{
     return(
@@ -23,6 +24,7 @@ const Home=()=>{
             <Searchbar/>
             <Insider/>
             <Property/>
+            <ListProduct/>
             {/* <PropertyServices/> */}
             <OutlinedCard/>
             <MediaCard/>
